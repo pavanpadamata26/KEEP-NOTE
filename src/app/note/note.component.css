@@ -1,0 +1,75 @@
+/* .card {
+   
+  float:left;
+  background-color:rgb(237, 208, 135);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 5px;
+ 
+  box-shadow: 3px 8px 9px rgba(7, 7, 115, 0.1);
+  width:180px;
+  height:190px;
+  margin-left:80px;
+  margin-top:40px;
+}
+
+ h2 {
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+  padding-top:30px;
+}
+
+ p {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  padding-top:40px;
+} */
+
+.card {
+  display: inline-block;
+  padding: 20px;
+  
+   /* Prevent cards from wrapping to the next row */
+  gap: 20px; /* Add the desired spacing between cards */
+  /* Add horizontal scrolling if necessary */
+}
+
+.example-card {
+  width: 300px; 
+  float: right;/* Set the maximum width of each card */
+}
+h5{
+  margin-top: -10px;
+}
+.category{
+  background-color:lightgray;
+  width: fit-content;
+  border-radius: 30%;
+  padding-left: 6px ;
+  padding-right: 6px;
+  padding-top: 2px;
+ 
+ 
+}
+.icon-container {
+  display:flex; /* Display children in a row */
+  align-items: center; /* Vertically center children */
+  justify-content: space-between; /* Space them evenly */
+  gap: 10px; /* Adjust the spacing between icons as needed */
+}
+
+.icon-container mat-icon {
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.icon-container button {
+  padding: 4px; /* Adjust the button padding as needed */
+}
+.last{
+  color: red;
+}
+.first{
+  color: blue;
+}

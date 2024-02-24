@@ -1,0 +1,134 @@
+<!-- <div class="card">
+    <div class="note-list">
+        <div class="note" >
+        <h2>{{ note?.title }}</h2>
+        <p>{{ note?.content }}</p>
+      </div>
+    </div>
+    </div> -->
+    <!-- <div class="card-container">
+    <mat-card class="example-card">
+      <mat-card-header>
+      <mat-card-subtitle><h2>{{note?.title}}</h2></mat-card-subtitle>
+      
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{note?.content}}</p>
+       </mat-card-content>
+    </mat-card>
+  </div> -->
+  <!-- <div class="card-container">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-subtitle>
+          <h2>
+            <span *ngIf="note?.priority === 'Critical'">
+              <mat-icon>gpp_maybe</mat-icon>
+            </span>
+            <span *ngIf="note?.priority === 'High'">
+              <mat-icon>arrow_circle_up</mat-icon>
+            </span>
+            <span *ngIf="note?.priority === 'Medium'">
+              <mat-icon>remove_circle_outline</mat-icon>
+            </span>
+            <span *ngIf="note?.priority === 'Low'">
+              <mat-icon>arrow_circle_down</mat-icon>
+            </span>
+            {{note?.priority}}  {{ note?.title }}
+          </h2>
+        </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{ note?.content }}</p>
+        <p> {{ note.reminderDate }}</p>
+        <p>{{ note.category }}</p>
+      
+      </mat-card-content>
+    </mat-card>
+  </div> -->
+  <!-- <div class="card-container">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-subtitle>
+          <h2>
+            <span *ngIf="note?.priority === '1'">
+              <mat-icon  color="accent">arrow_circle_down</mat-icon>
+            </span>
+            <span *ngIf="note?.priority === '2'" >
+              <mat-icon color="primary">remove_circle_outline</mat-icon>
+            </span>
+            <span *ngIf="note?.priority === '3'">
+              <mat-icon  color="warn">arrow_circle_up</mat-icon>
+            </span>
+            <span *ngIf="note?.priority === '4'">
+              <mat-icon  color="accent">gpp_maybe</mat-icon>
+            </span>
+            {{ note?.title }}
+          </h2>
+        </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{ note?.reminderDate  | date}}</p>
+        <p>{{ note?.content }}</p>
+       
+        <p>{{ note?.category }}</p>
+       
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  
+   -->
+<!-- note.component.html -->
+<div class="card">
+  <mat-card class="example-card">
+    <mat-card-header>
+
+      <button *ngIf="note?.priority==='Critical'" color="accent" mat-icon-button>
+        <mat-icon>gpp_maybe</mat-icon>
+      </button>
+      
+      <button *ngIf="note?.priority==='High'" color="warn" mat-icon-button>
+        <mat-icon>arrow_circle_up</mat-icon>
+      </button>
+      <button *ngIf="note?.priority==='Medium'" color="primary" mat-icon-button>
+        <mat-icon>remove_circle_outline</mat-icon>
+      </button>
+      <button *ngIf="note?.priority==='Low'" color="accent" mat-icon-button>
+        <mat-icon>arrow_circle_down</mat-icon>
+      </button>
+      <div>
+        <mat-card-title>{{ note!.title }}</mat-card-title>
+        <h5>{{ note!.reminderDate | date: 'short' }}</h5>
+      </div>
+    </mat-card-header>
+    
+    <mat-card-content>
+      
+      <p>{{ note!.content }}</p>
+      <div class="category">
+      <p>{{ note!.category }}</p>
+    </div>
+    </mat-card-content>
+    <!-- <button mat-icon-button color=""> 
+      <a routerLink="/note-edit">
+      <mat-icon>edit</mat-icon>
+      </a>
+     </button> -->
+     <div class="icon-container">
+      <button class="first"mat-icon-button><mat-icon>speaker_notes</mat-icon></button>
+      <button mat-icon-button > 
+    <mat-icon><a [routerLink]="['/note-edit',note.id]" [queryParams]="{ title: note.title, content: note.content }">
+      edit
+    </a>
+  </mat-icon>
+  </button>
+  <button mat-icon-button (click)="confirmDelete()">
+    <mat-icon>delete</mat-icon>
+  </button>
+  <button class="last" mat-icon-button><mat-icon>notifications</mat-icon></button>
+  </div>
+   
+
+  </mat-card>
+</div>

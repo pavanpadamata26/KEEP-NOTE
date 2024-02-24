@@ -1,0 +1,335 @@
+{
+  "users": [
+    {
+      "firstName": "NANDITA",
+      "lastName": "VORA",
+      "password": "Nandita@123",
+      "confirmPassword": "Nandita@123",
+      "gender": "female",
+      "age": 30,
+      "email": "nandita.vora@stackroute.in",
+      "phone": "9920998416",
+      "address": {
+        "street": "A-1704, Ekta Bhumi Garden 3 Off Dattapada Road,",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": 400066
+      },
+      "id": 1
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "Siree@1234",
+      "conformPassword": "Siree@1234",
+      "gender": "",
+      "age": 21,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddksklhdjhsalhasldkadlkhsalaslhsajdhhdjals",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 2
+    },
+    {
+      "firstName": "syam",
+      "lastName": "kumaar",
+      "email": "ssyam@gmail.com",
+      "password": "Syam@12344",
+      "conformPassword": "Syam@12344",
+      "gender": "",
+      "age": 19,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddksklhdjhsalhasldkadlkhsal",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 3
+    },
+    {
+      "firstName": "Pavan",
+      "lastName": "Kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@123",
+      "conformPassword": "Pavan@123",
+      "gender": "",
+      "age": 18,
+      "phoneNumber": "9123344566",
+      "address": {
+        "street": "gjksdddksklhdjhsalhasldkadlkhsalaslhsajdhhdjals",
+        "city": "ggggee",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 4
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@1234",
+      "conformPassword": "Pavan@1234",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddksklhdjhsalhasldkadlkhsalaslhsajdhhdjals",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 5
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@1234",
+      "conformPassword": "Pavan@1234",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddksklhdjhsalhasldkadlkhsalaslhsajdhhdjals",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 6
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@1234",
+      "conformPassword": "Pavan@1234",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddksklhdjhsalhasldkadlkhsalaslhsajdhhdjals",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 7
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@1234",
+      "conformPassword": "Pavan@1234",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddksklhdjhsalhasldkadlkhsalaslhsajdhhdjals",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 8
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@1234",
+      "conformPassword": "Pavan@1234",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddksklhdjhsalhasldkadlkhsalaslhsajdhhdjals",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 9
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@123",
+      "conformPassword": "Pavan@123",
+      "gender": "",
+      "age": 18,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddksklhdjhsalhasldkadlkhsalaslhsajdhhdjals",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 10
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@123",
+      "conformPassword": "Pavan@123",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddksklhdjhsalhasldkadlkhsalaslhsajdhhdjals",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 11
+    },
+    {
+      "firstName": "kk",
+      "lastName": "yyuii",
+      "email": "raju123@gmail.com",
+      "password": "Pavan@123",
+      "conformPassword": "Pavan@123",
+      "gender": "",
+      "age": 45,
+      "phoneNumber": "7123455666",
+      "address": {
+        "street": "bnnnnnnnnnnnnn",
+        "city": "nnnnnnnn",
+        "state": "nnnnnnnnn",
+        "zipCode": "56789"
+      },
+      "id": 12
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@1234",
+      "conformPassword": "Pavan@1234",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddk",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 13
+    },
+    {
+      "firstName": "Pavan",
+      "lastName": "Kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@1234",
+      "conformPassword": "Pavan@1234",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "7123344566",
+      "address": {
+        "street": "gjksdddksklhdjhsalhas",
+        "city": "nnnnnnnn",
+        "state": "nnnnnnnnn",
+        "zipCode": "56789"
+      },
+      "id": 14
+    },
+    {
+      "firstName": "kk",
+      "lastName": "yyuii",
+      "email": "raju123@gmail.com",
+      "password": "Siree@123",
+      "conformPassword": "Siree@123",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "7123455666",
+      "address": {
+        "street": "kkkk",
+        "city": "kkkkkkk",
+        "state": "kkk",
+        "zipCode": "56789"
+      },
+      "id": 15
+    },
+    {
+      "firstName": "Pavan",
+      "lastName": "Kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@123",
+      "conformPassword": "Pavan@123",
+      "gender": "",
+      "age": 19,
+      "phoneNumber": "7098888888",
+      "address": {
+        "street": "gjksdddk",
+        "city": "bb",
+        "state": "hhhhhhhhh",
+        "zipCode": "89787"
+      },
+      "id": 16
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@123",
+      "conformPassword": "Pavan@123",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "7095942512",
+      "address": {
+        "street": "gjksdddksklhdjh",
+        "city": "gggg",
+        "state": "gggg",
+        "zipCode": "56789"
+      },
+      "id": 17
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "title": "Sample Note",
+      "content": "This is a sample note added for testing purpose",
+      "reminderDate": "2022-09-09T18:30:00.000Z",
+      "category": "Office",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "title": "Practice-exercise: TypeScript",
+      "content": "Solution development progress - exercise 1 solution is ready, exercise 2 solution will be started",
+      "reminderDate": "2022-10-09T18:30:00.000Z",
+      "category": "Office",
+      "priority": "Medium"
+    },
+    {
+      "id": 5,
+      "title": "Challenge: SPA",
+      "content": "Keep Note app solution development in progress. Header design is completed. Code to display notes is in progress.",
+      "reminderDate": "2022-09-09T18:30:00.000Z",
+      "category": "Review",
+      "priority": "Medium"
+    },
+    {
+      "title": "Review Meeting",
+      "content": "Documentation of project should be completed before review meeting",
+      "reminderDate": "2022-12-07T18:30:00.000Z",
+      "category": "Office",
+      "priority": "Critical",
+      "id": 6
+    },
+    {
+      "title": "pavan",
+      "content": "hhhhhhhhhh",
+      "reminderDate": "2023-10-09T18:30:00.000Z",
+      "category": "fffffff",
+      "priority": "Low",
+      "id": 7
+    }
+  ]
+}

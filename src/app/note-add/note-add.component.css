@@ -1,0 +1,38 @@
+.radio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.new-card{
+width : 400px;
+}
+.title-error{
+    margin-top: -17px;
+    color: red;
+}
+.content-error{
+    margin-top: -17px;
+    color: red;
+
+}
+.icon{
+    margin-left: 140px;
+}
+.error{
+    margin-top: -17px;
+    color: red;
+}
+
+/* Add these CSS rules to your component's stylesheet */
+/* .mat-form-field {
+    display: flex;
+    flex-direction: row-reverse; /* Reverses the order of children (icon and input) */
+    /* align-items: center; /* Vertically aligns children */
+  
+  
+  /* Add these CSS rules to your component's stylesheet */
+
+h6{
+    color: red;
+    margin-bottom: 3px;
+}

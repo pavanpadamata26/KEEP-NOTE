@@ -1,0 +1,14 @@
+
+ <app-note-add *ngIf="showNoteAdd" (noteAdded)="noteadded($event)"></app-note-add> 
+
+<div class="note-lists">
+    <app-search (searchEvent)="onSearch($event)"></app-search>
+    <app-note *ngFor="let note of notes" [note]="note" (noteDeleted)="removedNote($event)"></app-note>
+    
+</div>
+<button mat-mini-fab color="primary" class="add-icon"  (click)="openDialog()">
+    <mat-icon>add</mat-icon>
+  </button>
+  <button mat-mini-fab color="primary" class="adds-icon"  (click)=" userlogOut()">
+    <mat-icon>logout</mat-icon>
+  </button>
